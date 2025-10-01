@@ -7,13 +7,13 @@
     <listType typeId="83550eb1-7963-4a34-9362-9a2bd337d2ed" valueTypeId="10b365bd-cec6-46e0-b0c5-3febab759346"/>
     <managerType typeId="135a97e9-ddad-4c86-949e-3f0446421e1c" valueTypeId="61a37bc2-b1d6-41af-9fb1-645c46bb369b"/>
   </producedTypes>
-  <name>ВКМ_ОбслуживаниеКлиента</name>
+  <name>BKM_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>Обслуживание клиента</value>
+    <value>Обслуживание клиентов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Number</inputByString>
+  <inputByString>Document.BKM_ОбслуживаниеКлиентов.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -27,7 +27,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ВКМ_ОбслуживаниеКлиента.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.BKM_ОбслуживаниеКлиентов.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="721ebc1c-6b14-430f-a338-eafcb44c4144">

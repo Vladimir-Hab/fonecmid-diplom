@@ -7,6 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Document.BKM_ОбслуживаниеКлиентов</content>
   <content>Catalog.ВКМ_Специалисты</content>
+  <content>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
 </mdclass:Subsystem>
