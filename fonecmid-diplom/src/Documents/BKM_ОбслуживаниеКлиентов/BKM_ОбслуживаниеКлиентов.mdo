@@ -99,7 +99,7 @@
     <name>ВремяНачалаПлан</name>
     <synonym>
       <key>ru</key>
-      <value>Время начала план</value>
+      <value>Время начала</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -117,7 +117,7 @@
     <name>ВремяОкончанияПлан</name>
     <synonym>
       <key>ru</key>
-      <value>Время окончания план</value>
+      <value>Время окончания</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -161,6 +161,7 @@
         <length>200</length>
       </stringQualifiers>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b61b0f28-d9bb-4d73-989d-e8187d858ad9">
+  <producedTypes>
+    <objectType typeId="d0eb4bd0-6ee2-413b-a279-4abda1572e80" valueTypeId="97ad675f-5da6-4a99-9bcb-49dd7c190853"/>
+    <refType typeId="5a4b3e72-59b5-41e0-b3dc-6ce079d615fb" valueTypeId="fdcaf862-31ac-4931-b751-47041cd727ae"/>
+    <selectionType typeId="57d1e67a-550d-434a-82a8-60bfa5d51f05" valueTypeId="65032a3e-08cf-4a0b-9d68-e7e88ee3b94c"/>
+    <listType typeId="7e7d2eb8-42bd-4b57-ab94-2969a9cfa78d" valueTypeId="eccfc6b4-bb2f-4881-8264-079857a22bfb"/>
+    <managerType typeId="0fc07002-e498-4e04-a11f-bb0744dd8783" valueTypeId="a61a6fb2-9bce-43b1-a125-2770035ac193"/>
+  </producedTypes>
+  <name>ВКМ_УведомлениеТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление телеграм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_УведомлениеТелеграм.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_УведомлениеТелеграм.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e2fd919b-3d14-4d8a-923c-bb98db80c515">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

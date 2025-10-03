@@ -10,4 +10,5 @@
   <content>Document.BKM_ОбслуживаниеКлиентов</content>
   <content>Catalog.ВКМ_Специалисты</content>
   <content>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>Catalog.ВКМ_УведомлениеТелеграм</content>
 </mdclass:Subsystem>
