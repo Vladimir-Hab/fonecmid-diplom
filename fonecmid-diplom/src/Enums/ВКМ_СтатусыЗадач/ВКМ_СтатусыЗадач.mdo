@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02f9c824-ecdb-44af-92d6-c2ace3f45e97">
+  <producedTypes>
+    <refType typeId="57b32f41-8990-498a-a1c4-0b38e8f7ec5f" valueTypeId="96de371c-0dea-478b-bfb8-01ca6ffbb43b"/>
+    <listType typeId="8a991e5a-5ee8-4c1b-9c9c-ba4404d2387e" valueTypeId="a99b78aa-a069-4bc1-87cd-aa9e2e840583"/>
+    <managerType typeId="beaff172-ed4c-44c9-bc0c-97a187e3bd43" valueTypeId="a1568fad-350c-47e8-811d-57c471445e91"/>
+  </producedTypes>
+  <name>ВКМ_СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ статусы задач</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ff5b661a-6498-46fe-a1e7-e2654f707abf">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c69563e0-41c6-4735-b1b1-e635912efe96">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eac5bc36-2ae4-4e00-9d57-70177714a098">
+    <name>Отложено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

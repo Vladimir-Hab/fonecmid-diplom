@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1bfdad6-1a4d-413b-9b16-cd243da961ad">
+  <producedTypes>
+    <managerType typeId="721c4fed-e7e9-4ecb-819a-61b7788a637e" valueTypeId="54ad438e-fe98-4485-9284-e47fe25304d0"/>
+    <valueManagerType typeId="08615eb8-c6bf-47ac-a4fb-5b2ee7b0ed09" valueTypeId="5d816619-cb96-418b-bed6-44e7654149f6"/>
+    <valueKeyType typeId="be8418f2-780d-4608-8e78-5d24bc81dc87" valueTypeId="a7bf0aec-d1d8-495a-bdf3-010e9f68ed54"/>
+  </producedTypes>
+  <name>ВКМ_НачалоРабочегоДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начало рабочего дня</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
