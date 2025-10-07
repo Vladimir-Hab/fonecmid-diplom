@@ -11,4 +11,6 @@
   <content>Catalog.ВКМ_Специалисты</content>
   <content>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
   <content>Catalog.ВКМ_УведомлениеТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
 </mdclass:Subsystem>

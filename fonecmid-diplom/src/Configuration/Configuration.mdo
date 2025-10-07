@@ -1119,6 +1119,8 @@
   <constants>Constant.ВКМ_ТокенУправленияТелеграмБотом</constants>
   <constants>Constant.ВКМ_ТелеграмГруппа</constants>
   <constants>Constant.ВКМ_НачалоРабочегоДня</constants>
+  <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
+  <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
