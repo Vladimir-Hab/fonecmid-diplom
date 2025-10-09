@@ -404,4 +404,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="4c24fb3c-b0cf-483f-a47f-11220d7e5349">
+    <name>ПФ_MXL_РеализацияТоваровУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

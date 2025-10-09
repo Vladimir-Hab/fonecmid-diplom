@@ -82,8 +82,6 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.BKM_ОбслуживаниеКлиентов.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.BKM_ОбслуживаниеКлиентов.Form.ФормаСписка</defaultListForm>
-  <posting>Deny</posting>
-  <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.ВКМ_ЗаписиЗадач</registerRecords>
   <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
