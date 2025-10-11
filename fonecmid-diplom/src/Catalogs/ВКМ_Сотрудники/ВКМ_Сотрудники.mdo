@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2ef59cc-f654-487e-9070-a114ffa0b403">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a7928f2-6f70-4a96-9978-a10937cd2ebf">
   <producedTypes>
-    <objectType typeId="9094051c-646d-49b7-b071-6c38c5e12ba2" valueTypeId="6b218d53-189a-4184-974b-8e81c74553ec"/>
-    <refType typeId="726276d9-ef4f-47a8-a2d1-78203f7ac6b9" valueTypeId="3a909a3d-3861-4386-913a-62acc21751c2"/>
-    <selectionType typeId="99c56cf9-e32a-4f28-a59c-2520130d161f" valueTypeId="af3a4f36-6c5b-40da-88e6-0672260e0cd4"/>
-    <listType typeId="dbb58883-e0c3-4c1f-bd22-f54bf5a0e941" valueTypeId="9d034377-1d94-4d7b-b83a-6f80b0836136"/>
-    <managerType typeId="1fe70e75-2415-4f13-b17a-5e417d41e407" valueTypeId="16ab0bda-d4f6-4e04-a6f5-8dc53da715aa"/>
+    <objectType typeId="e6aaae15-23b4-4d66-b869-204b373a1b3d" valueTypeId="519f0d8a-fa63-4d55-88df-46326e66da13"/>
+    <refType typeId="cef6c388-4710-433e-b35e-5ab417a19e51" valueTypeId="1947a562-a205-441c-9b31-5a5e80d0fa3b"/>
+    <selectionType typeId="eb580d43-74ff-4c0b-9dd8-5c39e70435e9" valueTypeId="389770d6-df02-4b69-837a-01dff214744d"/>
+    <listType typeId="d9685190-5661-4863-a873-15b14c804d73" valueTypeId="d263bd9d-3fcc-4b0a-93f0-90d559196438"/>
+    <managerType typeId="d879dcdd-5e06-4710-b626-14f7b2582048" valueTypeId="35bea131-6ef7-417f-ad0c-5daca4421d28"/>
   </producedTypes>
-  <name>ВКМ_Специалисты</name>
+  <name>ВКМ_Сотрудники</name>
   <synonym>
     <key>ru</key>
-    <value>Специалисты</value>
+    <value>ВКМ сотрудники</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ВКМ_Специалисты.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ВКМ_Специалисты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -28,6 +28,7 @@
     <dataHistory>Use</dataHistory>
     <name>Predefined</name>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -35,13 +36,15 @@
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <fillValue xsi:type="core:BooleanValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -77,7 +80,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Ф.И.О</value>
+      <value>Ф.И.О.</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -96,10 +99,6 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>Специалисты</value>
-  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -111,4 +110,36 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="61fb455f-6f56-4d93-974a-e366eb5e15e5">
+    <name>ПользовательИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ИБ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9115b3c8-cae6-40bd-88d3-82ca543c060f">
+    <name>КатегорияСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория сотрудника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_КатегорияСотрудника</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

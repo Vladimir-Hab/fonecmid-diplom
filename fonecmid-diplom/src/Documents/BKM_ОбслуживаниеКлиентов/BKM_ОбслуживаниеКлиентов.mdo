@@ -82,6 +82,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.BKM_ОбслуживаниеКлиентов.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.BKM_ОбслуживаниеКлиентов.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</registerRecords>
   <registerRecords>InformationRegister.ВКМ_ЗаписиЗадач</registerRecords>
   <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>

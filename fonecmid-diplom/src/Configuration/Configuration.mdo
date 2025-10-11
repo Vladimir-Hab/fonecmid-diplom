@@ -53,7 +53,8 @@
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.ОбслуживаниеКлиентов</subsystems>
+  <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <subsystems>Subsystem.ВКМ_РасчетЗаработнойПлаты</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -1229,16 +1230,20 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
-  <catalogs>Catalog.ВКМ_Специалисты</catalogs>
   <catalogs>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ВКМ_УведомлениеТелеграм</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
+  <catalogs>Catalog.ВКМ_График</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.BKM_ОбслуживаниеКлиентов</documents>
+  <documents>Document.ВКМ_НачислениеЗаработнойПлаты</documents>
+  <documents>Document.ВКМ_НачислениеФиксированнойПремии</documents>
+  <documents>Document.BKM_ГрафикОтпусков</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1288,6 +1293,7 @@
   <enums>Enum.ВКМ_СтатусыЗадач</enums>
   <enums>Enum.ВКМ_ПриоритетыЗадач</enums>
   <enums>Enum.ВКМ_ТипыПериодаОтображения</enums>
+  <enums>Enum.ВКМ_КатегорияСотрудника</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
@@ -1398,6 +1404,9 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_ЗаписиЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_График</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_УсловияОплаты</informationRegisters>
+  <informationRegisters>InformationRegister.BKM_СведенияОбОтпусках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>
@@ -1405,5 +1414,13 @@
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ВКМ_ОсновныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ВКМ_ДополнительныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.BKM_Удержания</calculationRegisters>
 </mdclass:Configuration>

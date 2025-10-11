@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c5fdae9-1e3d-4cee-81d0-5e3f4450f550">
-  <name>ОбслуживаниеКлиентов</name>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c5fdae9-1e3d-4cee-81d0-5e3f4450f550">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
     <value>Обслуживание клиентов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИконкаНетология</picture>
+  </picture>
   <content>Document.BKM_ОбслуживаниеКлиентов</content>
-  <content>Catalog.ВКМ_Специалисты</content>
   <content>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
   <content>Catalog.ВКМ_УведомлениеТелеграм</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
 </mdclass:Subsystem>
