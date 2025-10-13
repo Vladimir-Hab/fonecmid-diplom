@@ -9,14 +9,14 @@
     <recordType typeId="dd6ff148-9e5b-4902-a6d1-2287e76a4555" valueTypeId="34524879-dc3e-4356-b737-2a27a3bd4678"/>
     <recordManagerType typeId="dfee7c33-dc02-467d-8a5d-2ed5f4008473" valueTypeId="d6e939c8-d002-44ba-93bf-632978c695b2"/>
   </producedTypes>
-  <name>ВКМ_УсловияОплаты</name>
+  <name>ВКМ_УсловияОплатыСотрудников</name>
   <synonym>
     <key>ru</key>
     <value>Условия оплаты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.ВКМ_УсловияОплаты.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultRecordForm>InformationRegister.ВКМ_УсловияОплатыСотрудников.Form.ФормаЗаписи</defaultRecordForm>
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -87,7 +87,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
       <name>Сотрудник</name>
-      <field>InformationRegister.ВКМ_УсловияОплаты.Dimension.Сотрудник</field>
+      <field>InformationRegister.ВКМ_УсловияОплатыСотрудников.Dimension.Сотрудник</field>
     </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

@@ -1405,7 +1405,7 @@
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_ЗаписиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_График</informationRegisters>
-  <informationRegisters>InformationRegister.ВКМ_УсловияОплаты</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_УсловияОплатыСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.BKM_СведенияОбОтпусках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
