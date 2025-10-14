@@ -10,7 +10,7 @@
   <name>BKM_ГрафикОтпусков</name>
   <synonym>
     <key>ru</key>
-    <value>BKM график отпусков</value>
+    <value>График отпусков</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.BKM_ГрафикОтпусков.StandardAttribute.Number</inputByString>
@@ -37,17 +37,8 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>4</precision>
-        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ЧГ=0</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ЧГ=0</value>
-    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -60,6 +51,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82db74cb-4dae-42d0-94eb-0033fe669f6d">
+    <name>ФормаАнализГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма анализ графика</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

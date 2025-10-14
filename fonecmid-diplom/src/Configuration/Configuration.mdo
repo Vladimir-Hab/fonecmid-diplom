@@ -628,6 +628,7 @@
   <roles>Role.ВКМ_ДокументыОбслуживанияКлиентов</roles>
   <roles>Role.ВКМ_ДокументыРеализации</roles>
   <roles>Role.ВКМ_МассовоеСозданиеДокументов</roles>
+  <roles>Role.ВКМ_ДокументыДляКадровика</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1244,6 +1245,7 @@
   <documents>Document.ВКМ_НачислениеЗаработнойПлаты</documents>
   <documents>Document.ВКМ_НачислениеФиксированнойПремии</documents>
   <documents>Document.BKM_ГрафикОтпусков</documents>
+  <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>

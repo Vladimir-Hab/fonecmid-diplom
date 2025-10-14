@@ -18,4 +18,6 @@
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
 </mdclass:Subsystem>

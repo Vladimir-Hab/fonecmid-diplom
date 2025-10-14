@@ -1010,7 +1010,9 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenByRecorder</command>
-        <userVisible/>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>
