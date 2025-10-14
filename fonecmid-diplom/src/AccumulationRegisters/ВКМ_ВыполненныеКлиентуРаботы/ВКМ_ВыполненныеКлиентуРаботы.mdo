@@ -48,7 +48,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="957fd0a4-8c0a-4b15-afa8-5d480d873c79">
+  <dimensions uuid="89a3a08d-503c-4dd2-87f4-7e246506ea9b">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -60,8 +60,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </attributes>
-  <attributes uuid="4b11647a-d892-4041-b655-b8f009344452">
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="38b55f53-1f95-4bd9-bf43-c7a5bbcedc53">
     <name>Договор</name>
     <synonym>
       <key>ru</key>
@@ -73,5 +74,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </attributes>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>

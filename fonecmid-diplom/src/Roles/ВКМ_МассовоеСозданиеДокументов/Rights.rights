@@ -481,13 +481,6 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.Attribute.Договор</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ВКМ_ТокенУправленияТелеграмБотом</name>
 		<right>
 			<name>Read</name>
@@ -796,13 +789,6 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.Attribute.Клиент</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
