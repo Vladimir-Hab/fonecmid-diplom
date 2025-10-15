@@ -630,6 +630,10 @@
   <roles>Role.ВКМ_ДокументыРеализации</roles>
   <roles>Role.ВКМ_МассовоеСозданиеДокументов</roles>
   <roles>Role.ВКМ_ДокументыДляКадровика</roles>
+  <roles>Role.ВКМ_ОтчетВыборкаСпециалистов</roles>
+  <roles>Role.ВКМ_ОтчетАнализВыставленныхАктов</roles>
+  <roles>Role.ВКМ_ОтчетРасчетыССотрудниками</roles>
+  <roles>Role.ВКМ_ОтчетРасходОтпусков</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1314,6 +1318,8 @@
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
   <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_РасчётыССотрудниками</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
