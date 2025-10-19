@@ -292,6 +292,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ОтпускаСотрудников.ДатаОкончания</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтпускаСотрудниковДатаОкончанияПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ОтпускаСотрудниковДатаОкончанияРасширеннаяПодсказка</name>
         <id>34</id>
@@ -361,6 +365,9 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <maxValue xsi:type="core:NumberValue">
+          <value>28</value>
+        </maxValue>
       </extInfo>
     </items>
     <autoCommandBar>
@@ -371,7 +378,7 @@
     </autoCommandBar>
     <handlers>
       <event>OnChange</event>
-      <name>ОтпускаСотрудниковПриИзменении1</name>
+      <name>ОтпускаСотрудниковПриИзменении</name>
     </handlers>
     <searchStringAddition>
       <name>ОтпускаСотрудниковСтрокаПоиска</name>
@@ -615,7 +622,14 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>InformationRegister.BKM_СведенияОбОтпусках.StandardCommand.OpenByRecorder</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">

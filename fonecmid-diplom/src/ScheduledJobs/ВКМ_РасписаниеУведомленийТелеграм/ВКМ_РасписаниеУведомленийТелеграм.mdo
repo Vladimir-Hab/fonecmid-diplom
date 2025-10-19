@@ -3,7 +3,7 @@
   <name>ВКМ_РасписаниеУведомленийТелеграм</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ расписание уведомлений телеграм</value>
+    <value>Расписание уведомлений телеграм</value>
   </synonym>
   <methodName>CommonModule.ВКМ_ТелграммБот.ОтправитьУведомленияВТелеграмм</methodName>
   <use>true</use>

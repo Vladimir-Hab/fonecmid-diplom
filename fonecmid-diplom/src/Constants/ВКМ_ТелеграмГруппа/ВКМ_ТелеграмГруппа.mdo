@@ -8,7 +8,7 @@
   <name>ВКМ_ТелеграмГруппа</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ телеграм группа</value>
+    <value>Телеграм группа</value>
   </synonym>
   <type>
     <types>String</types>

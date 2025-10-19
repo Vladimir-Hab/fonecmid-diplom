@@ -17,4 +17,7 @@
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>

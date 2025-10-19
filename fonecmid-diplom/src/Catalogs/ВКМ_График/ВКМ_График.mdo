@@ -10,7 +10,7 @@
   <name>ВКМ_График</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ график</value>
+    <value>График</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВКМ_График.StandardAttribute.Description</inputByString>
