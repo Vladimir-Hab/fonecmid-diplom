@@ -1241,7 +1241,6 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
   <catalogs>Catalog.ВКМ_График</catalogs>
-  <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
