@@ -32,6 +32,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
   <predefined>
     <items id="ce7a97a4-1c3c-4a95-bbb6-20521cc43d3f">
       <name>ПремияПроцентом</name>
@@ -39,6 +41,7 @@
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
     </items>
     <items id="03d2433d-846a-4a61-a72a-13b20422c116">
       <name>ПремияФиксированная</name>
@@ -46,6 +49,7 @@
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

@@ -17,6 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
   <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
   <schedule>InformationRegister.ВКМ_График</schedule>
   <scheduleValue>InformationRegister.ВКМ_График.Resource.Значение</scheduleValue>
   <scheduleDate>InformationRegister.ВКМ_График.Dimension.Дата</scheduleDate>
@@ -86,6 +87,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <scheduleLink>InformationRegister.ВКМ_График.Dimension.График</scheduleLink>
   </attributes>
   <dimensions uuid="c9c9132a-774c-48dc-a8f9-c40a5f2b21ea">
     <name>Сотрудник</name>
